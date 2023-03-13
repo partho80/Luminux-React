@@ -1,0 +1,42 @@
+.single-member-top {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sm-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sm-social {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: -70px;
+  background: #fff;
+  transform: translate(-50%, 0);
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: 0.3s ease all;
+}
+
+.single-member-top:hover .sm-social {
+  bottom: 50px;
+}
+
+.sm-social li a {
+  background: #e3e3e3;
+}
+
+.sm-social li a:hover {
+  background: var(--bgPrimary);
+  border: var(--bgPrimary);
+  color: #fff;
+}
+
+.sb-name {
+  font-weight: 600;
+}

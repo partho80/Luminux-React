@@ -1,0 +1,32 @@
+.single-choose {
+  padding: 30px 28px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.single-choose:hover {
+  background-image: linear-gradient(to left,
+      #e00768,
+      #c80076,
+      #ab0a81,
+      #8a1b88,
+      #65258a);
+}
+
+.single-choose .sc-title {
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.single-choose:hover .sc-title,
+.single-choose:hover .sc-desc {
+  color: #fff;
+}
+
+#choose .row {
+  align-items: center;
+}
+
+.sc-img img {
+  width: 100%;
+}

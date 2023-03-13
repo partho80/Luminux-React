@@ -1,0 +1,22 @@
+.service-title {
+  padding: 15px 0;
+}
+
+.single-service {
+  padding: 40px;
+  min-height: 260px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.single-service:hover {
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.home-2-services .single-service:hover img {
+  filter: none;
+}
+
+.awesome-services-right .single-service:hover {
+  transform: scaleY(1.1);
+}

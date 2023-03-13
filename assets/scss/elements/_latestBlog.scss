@@ -1,0 +1,95 @@
+@import "../theme/variable";
+.single-latest-blog {
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.slb-top {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.slb-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slb-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  top: 0;
+  background: rgba(224, 7, 105, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.slb-top:hover .slb-hover {
+  left: 0;
+}
+
+.slb-top .btn-custom-primary {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.slb-top .btn-custom-primary:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #e00768;
+}
+
+.blog-content .bc-comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blog-title {
+  text-align: left;
+}
+
+.bc-comment .text-custom {
+  color: var(--primaryColor);
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.bc-comment .text-custom.tc-broder {
+  margin: 0px 20px;
+}
+
+.bc-comment .text-custom span {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.bc-comment .text-custom span i {
+  font-size: 14px;
+}
+
+.blog-title a {
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 600;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+.blog-title p {
+  margin-bottom: 15px;
+}
+
+.blog-title a:hover {
+  color: var(--primaryColor);
+}
+
+.blog-content {
+  padding: 25px;
+}

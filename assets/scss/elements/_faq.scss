@@ -1,0 +1,34 @@
+.faq-section .accordion-button:not(.collapsed) {
+  color: #2d2d2d;
+  background-color: #ffff;
+  box-shadow: none;
+}
+
+.faq-section .accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq-section .accordion-item {
+  border: 0;
+  margin-bottom: 28px;
+}
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: var(--primaryColor);
+  box-shadow: none;
+}
+
+.faq-section .form-control {
+  padding: 15px;
+  border-radius: 0;
+}
+
+.home-contact {
+  padding: 30px 40px;
+  background: #fff;
+}
+
+.faq-section .accordion-header {
+  line-height: 28px;
+}

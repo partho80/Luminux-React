@@ -1,0 +1,29 @@
+.hero-section {
+  // background-image: url('../../../assets/img/hero-bg.jpg') no-repeat center ;
+  background-image: url("../../../assets/img/hero-bg.jpg") ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: 0;
+  background-position: center;
+}
+
+.hero-section .hl-top {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hero-section .hl-heading {
+  color: #fff;
+  padding: 25px 0;
+  font-weight: 700;
+}
+
+.hero-section .hl-bottom {
+  color: #fff;
+  font-size: 18px;
+}

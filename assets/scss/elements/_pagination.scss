@@ -1,0 +1,54 @@
+.pagination-section .page-item:first-child .page-link {
+  border: 0;
+}
+
+.pagination-section .page-link {
+  border: 0 !important;
+  color: #2b2c348a;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pagination-section .page-item:last-child .page-link {
+  color: #2b2c34;
+}
+
+.pagination-section .page-item:last-child .page-link:hover {
+  color: var(--primaryColor);
+}
+
+.pagination-section .page-link i {
+  font-size: 18px;
+  color: #2b2c348a;
+}
+
+.pagination-section .page-link:hover {
+  color: var(--primaryColor);
+  background: transparent;
+}
+
+.pagination-section .page-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.pagination-section .page-link.active {
+  color: var(--primaryColor);
+}
+
+.tags-collection li {
+  display: inline-block;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.categories-collection li {
+  padding: 7px 0;
+}
+
+.categories-collection li a {
+  font-size: 18px;
+  color: #4a4a4a;
+}

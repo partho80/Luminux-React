@@ -1,0 +1,32 @@
+.collaboration-bg {
+  background-image: linear-gradient(to left bottom,
+      #e00768,
+      #c80076,
+      #ab0a81,
+      #8a1b88,
+      #65258a);
+}
+
+.col-content-btn .btn:hover {
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+}
+
+.col-content-title {
+  width: 50%;
+}
+
+.col-content-btn {
+  width: 40%;
+  text-align: right;
+}
+
+.collaboration-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collaboration-bg h2 {
+  color: #fff;
+}

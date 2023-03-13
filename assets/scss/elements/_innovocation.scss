@@ -1,0 +1,31 @@
+.inno-padding {
+  padding-bottom: 300px;
+}
+
+.inovocation-section {
+  background-image: linear-gradient(to left,
+      #e00768,
+      #c80076,
+      #ab0a81,
+      #8a1b88,
+      #65258a);
+  padding: 100px 0 230px 0;
+  position: relative;
+}
+
+.inovocation-section .st-title,
+.inovocation-section .st-desc {
+  color: #fff;
+}
+
+.inno-video-wrapper {
+  width: 50%;
+  height: 480px;
+  position: absolute;
+  background-image: url("../../../assets/img/innovocation-video-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  left: 50%;
+  bottom: -240px;
+  transform: translate(-50%, 0);
+}

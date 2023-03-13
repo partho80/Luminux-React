@@ -1,0 +1,25 @@
+.our-services-section .single-service {
+  box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
+  min-height: 350px;
+  border-radius: 10px;
+  padding: 40px 60px;
+}
+
+.our-services-section .single-service:hover {
+  background-image: linear-gradient(to left bottom,
+      #e00768,
+      #c80076,
+      #ab0a81,
+      #8a1b88,
+      #65258a);
+}
+
+.our-services-section .single-service:hover .service-title,
+.our-services-section .single-service:hover .service-text,
+.our-services-section .single-service:hover .single-service-btn {
+  color: #fff;
+}
+
+.single-service:hover img {
+  filter: brightness(0) invert(1);
+}
